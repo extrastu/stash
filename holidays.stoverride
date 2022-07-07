@@ -6,5 +6,5 @@ tiles:
 
 script-providers:
   weekly_notes-Tile:
-    url: https://raw.githubusercontent.com/Coldvvater/Clash/master/JavaScript/weekly_notes.js
+    url: https://raw.githubusercontent.com/extrastu/stash/main/holidays.js
     interval: 86400
