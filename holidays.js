@@ -193,7 +193,7 @@ $done({
 		.filter((item) => item.isShow)
 		.map((item) =>
 			item.diffDays == 0 ? item.text + "\n" + item.desc : item.text
-		),
+		).join('\n\n'),
 	icon: "calendar",
 	backgroundColor: "#409EFF",
 });
