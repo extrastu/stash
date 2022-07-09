@@ -4,7 +4,6 @@ $httpClient.get("https://tenapi.cn/comment/", function (error, response, data) {
 	$done({
 		title: "网易云热评",
 		content:
-			"网易云热评 | " +
 			song +
 			" - " +
 			sing +
