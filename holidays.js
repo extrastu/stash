@@ -186,7 +186,7 @@ const diffDays = holidays.map((holiday) => {
 		desc: holiday.holidays,
 	};
 });
-console.log(diffDays, "diffDays");
+
 $done({
 	title: `今天${currentDate}`,
 	content: diffDays
