@@ -1,0 +1,10 @@
+name: 网易云热评
+desc: 网易云热评 (Stash 2.0)
+tiles:
+  - name: netease-Tile
+    interval: 3600
+
+script-providers:
+  holidays-Tile:
+    url: https://raw.githubusercontent.com/extrastu/stash/main/netease.js
+    interval: 86400
